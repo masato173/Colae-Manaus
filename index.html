@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colaê Manaus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="./img/Logo.png">
+    <h1>Rolês imperdíveis. Colaê que é sucesso!</h1>
+  </header>
+  <div class="sub">
+  <b>Explore eventos culturais na capital da floresta!</b>
+</div>
+  <nav>
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('exposicao')">Exposições e Feiras</button>
+    <button onclick="filtrar('gratuito')">Eventos Gratuitos</button>
+  </nav>
+
+  <main>
+    <div id="eventList" class="event-list">
+      <!-- Eventos inseridos via JS -->
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Eng. de Software - Viva a cultura amazônica 🌿</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
